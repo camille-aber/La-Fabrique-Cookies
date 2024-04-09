@@ -1,0 +1,20 @@
+.témoignages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.témoignage {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nom-client {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold  ;
+    font-family: "Lora", serif; 
+    align-items: center;
+}

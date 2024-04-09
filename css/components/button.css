@@ -1,0 +1,14 @@
+ .button {
+ 	background-color: rgb(202, 166, 166);
+ 	padding: 15px 20px;
+ 	border-radius: 4px;
+ 	color : white;
+ 	font-weight: bold  ;
+ 	font-family: "Lora", serif;	
+ 	align-items: center;
+ } 
+.button:hover {
+    background-color: rgb(148, 78, 99); 
+    color: rgb(255, 231, 231); 
+    text-decoration: none; 
+}

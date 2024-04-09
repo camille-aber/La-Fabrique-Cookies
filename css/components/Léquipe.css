@@ -1,0 +1,33 @@
+.Léquipes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Léquipe {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	margin: 20px;
+	flex-basis: 300px;
+	flex-grow: 1;
+}
+
+.Léquipe img{
+	width: 170px;
+	border-radius: 6px;
+}
+
+.Léquipe h3{
+	flex-grow: 1;
+	padding-left:20px ;
+	font-size: 18px;
+}
+
+.Léquipe:hover {
+    transform: translate(0px, -5px); 
+    box-shadow: 0px 5px 10px rgb(148, 78, 99); 
+}
+
